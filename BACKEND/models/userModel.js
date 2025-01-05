@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
   public_gists: Number,
   followers: Number,
   following: Number,
-  friends: [String], // Array of mutual friends' usernames
+  friends: [String], 
   isDeleted: { type: Boolean, default: false },
 }, { timestamps: true });
 
